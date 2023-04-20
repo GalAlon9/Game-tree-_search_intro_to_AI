@@ -1,0 +1,16 @@
+#N 7      ; number of vertices n in graph (from 1 to n)
+#V1                  ; Vertex 1, nothing of interest
+#V2 B               ; Vertex 2, initially contains 1 person to be rescued, and is brittle
+#V3 B                ; Vertex 3, has no people and is brittle
+#V4 P1               ; Vertex 4, initially contains 2 persons to be rescued
+#V5 P1               ; Vertex 5, initially contains 3 persons to be rescued
+#V6 P6
+#V7 P6
+
+#E1 1 2                  ; Edge 1 from vertex 1 to vertex 2
+#E2 2 3                  ; Edge 2 from vertex 3 to vertex 4
+#E3 1 4                  ; Edge 3 from vertex 2 to vertex 3
+#E4 4 5                  ; Edge 4 from vertex 1 to vertex 3
+#E5 3 6                  ; Edge 5 from vertex 2 to vertex 4
+#E6 2 7                  ; Edge 5 from vertex 1 to vertex 5
+#E7 3 5                  ; Edge 5 from vertex 3 to vertex 5
